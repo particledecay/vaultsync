@@ -34,18 +34,12 @@ var rootCmd = &cobra.Command{
 			zerolog.SetGlobalLevel(zerolog.InfoLevel)
 		}
 		log.Debug().Msg("debug messaging turned on")
-
-		log.Debug().Msgf("you're connecting to %s", vaultURL)
-		log.Debug().Msgf("your token is %s", vaultToken)
 	},
 	Args: func(cmd *cobra.Command, args []string) error {
 		if len(args) < 1 {
 			return errors.New("an action is required")
 		}
 		return nil
-	},
-	Run: func(cmd *cobra.Command, args []string) {
-		log.Info().Msg("you suck")
 	},
 }
 
