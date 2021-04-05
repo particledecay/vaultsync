@@ -31,3 +31,4 @@ Currently none.
 | Name                                                       | Author                                                                                       |
 | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | Datadog                                                    | [@particledecay](https://github.com/particledecay)                                           |
+| PagerDuty                                                  | [@particledecay](https://github.com/particledecay)                                           |
